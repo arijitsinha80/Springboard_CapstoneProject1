@@ -21,7 +21,7 @@ Another dataset used is to about the fuel price on the year of 2016, integrating
 
  - Load the dataset and perform the EDA, and merge with the dataset of Oil price for the particular date range. 
 	 - 	Various Data cleaning and feature engineering has been performed based on previous enhancements.
-	 - Missing value has been updated with 
+	 - Missing value has been updated with forward fill method.
 
 * Experiments and Implement the best performing model
 	* We will initially create the a benchmark model, using the linear regression algorithm
