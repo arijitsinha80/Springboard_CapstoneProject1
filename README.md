@@ -13,9 +13,10 @@ To find the key feature from the dataset which contributes to the most and the
 
 **Dataset Details –**
 
-There are 19735 and 29 attributes.  Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru). There are 2 random variables, which has be explored more.
-
-Another dataset used is to about the fuel price on the year of 2016, integrating this with overall dataset will help understand the fuel price impact the appliance energy consumption.
+We have two data sets - energydata_complete.csv and CrudeOilPrice.csv. We have
+taken two different dataset to get better prediction with analyzing the engorge consumed and how was the fuel price during the particular date.
+We do not have any missing values in energydata_complete.csv; it has 19735 observation with 29 attributes pertaining to temperature, humidity, light, wind speed, dew, and visibility from local weather channel.
+We do not have any missing value in CrudeOilPrice.csv, which has the fuel price for respective months and dates. This dataset has 2519 observation and 2 attributes of date and fuel price.
 
 ## Implementation Approach –
 
