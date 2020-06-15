@@ -25,11 +25,12 @@ We do not have any missing value in CrudeOilPrice.csv, which has the fuel price 
 	 - Missing value has been updated with forward fill method.
 
 * Experiments and Implement the best performing model
-	* We will initially create the a benchmark model, using the linear regression algorithm
+	* We will initially create the a benchmark model, using the DummyRegressor regression algorithm
 	* We will calculate the RMSE and R^2 score.
 	* Lets update the data and scale the data.
 	* Now lets create the following models with key important features –
 	* Regularized linear models as an improvement over Linear Regression.
+		* Linear Regression
 		* Ridge Regression
 		* Lasso Regression
 	* Ensemble based Tree Regression models, which deal with number of features and outlier data.
